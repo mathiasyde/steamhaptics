@@ -11,17 +11,9 @@
     <PackageReference Include="CommandLineParser" Version="2.9.1" />
     <PackageReference Include="HidApi.Net" Version="1.2.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.11" />
-    <PackageReference Include="Raylib-cs" Version="8.0.0" />
-    <PackageReference Include="Steamworks.NET.AnyCPU" Version="2026.164.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="tests/**/*.cs" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Include="lib/libsteam_api.so" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="lib/steam_appid.txt" CopyToOutputDirectory="PreserveNewest" />
-</ItemGroup>
-
 </Project>
